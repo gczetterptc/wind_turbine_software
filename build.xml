@@ -7,7 +7,7 @@
 
 
 	<target name="clean">
-		<delete dir="build" />
+		<delete dir="build" />f
 	</target>
 dd
 	<target name="compile">
