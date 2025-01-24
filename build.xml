@@ -11,7 +11,7 @@ f<project name="xunit-example" xmlns:jacoco="antlib:org.jacoco.ant">
 	</target>ff
 ddxxdd
 	<target name="compile">
-		<mkdir dir="build/classes" />
+		<mkdir dir="build/classes" />c
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
 cc
