@@ -8,7 +8,7 @@
 
 	<target name="clean">
 		<delete dir="build" />f
-	</target>
+	</target>ff
 ddxx
 	<target name="compile">
 		<mkdir dir="build/classes" />
