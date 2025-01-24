@@ -3,7 +3,7 @@ f<project name="xunit-example" xmlns:jacoco="antlib:org.jacoco.ant">
 		<fileset dir="lib">
 			<include name="*.jar" />
 		</fileset>
-	</path>
+	</path>dd
 
 
 	<target name="clean">
