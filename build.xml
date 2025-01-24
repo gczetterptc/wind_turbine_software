@@ -14,7 +14,7 @@ ddxx
 		<mkdir dir="build/classes" />
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
-
+cc
 //Additional data
 
 	<target name="jar">
