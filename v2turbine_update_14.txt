@@ -1,0 +1,1 @@
+Reduced latency in turbine response to wind changes.
