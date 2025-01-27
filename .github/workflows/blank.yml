@@ -52,7 +52,7 @@ jobs:
       - name: Push changes to GitHub
         run: |
           git branch -M main
-          git remote add origin ${{ secrets.REPO_URL }}
+          git remote add origin https://github.com/gczetterptc/wind_turbine_software
           git push -u origin main
 
         env:
