@@ -44,8 +44,8 @@ jobs:
 
           # Create 20 unique commits
           for i in {0..19}; do
-            echo "${commit_messages[$i]}" > turbine_update_$((i+1)).txt
-            git add turbine_update_$((i+1)).txt
+            echo "${commit_messages[$i]}" > v2turbine_update_$((i+1)).txt
+            git add v2turbine_update_$((i+1)).txt
             git commit -m "${commit_messages[$i]}"
           done
 
