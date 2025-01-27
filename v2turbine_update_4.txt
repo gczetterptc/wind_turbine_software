@@ -1,0 +1,1 @@
+Improved turbine shutdown procedure during high winds.
