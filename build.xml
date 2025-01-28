@@ -8,13 +8,15 @@ f<project name="xunit-example" xmlns:jacoco="antlib:org.jacoco.ant">
 
 	<target name="clean">
 		<delete dir="build" />f
-	</target>ff
-ddxxdd
+	</target>
 	<target name="compile">
 		<mkdir dir="build/classes" />c
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
-cc
+		<target name="compile">
+		<mkdir dir="build/classes" />c
+		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
+	</target>
 //Additional data
 
 	<target name="jar">
