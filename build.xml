@@ -10,7 +10,7 @@ f<project name="xunit-example" xmlns:jacoco="antlib:org.jacoco.ant">
 		<delete dir="build" />
 	</target>
 	<target name="compile">
-		<mkdir dir="build/classes" />c
+		<mkdir dir="build/classes" />cd
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
 		<target name="compile">
