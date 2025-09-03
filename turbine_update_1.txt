@@ -1,4 +1,5 @@
 Added initial wind turbine control system.
 
 
-j
+New function () {
+}
